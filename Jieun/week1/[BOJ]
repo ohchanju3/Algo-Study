@@ -1,9 +1,0 @@
-#1000 기초문제 커밋 테스트용
-
-#브론즈 5부터 시작 ㄱ
-
-a, b = input().split()
-a = int(a)
-b = int(b)
-
-print(a+b)
