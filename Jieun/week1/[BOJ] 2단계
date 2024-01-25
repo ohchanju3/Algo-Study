@@ -26,3 +26,4 @@ elif s>=60:
     print('D')
 else:
     print('F')
+
