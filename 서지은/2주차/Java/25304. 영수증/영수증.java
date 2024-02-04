@@ -12,7 +12,7 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
         
 
-        int sum = 0;
+        int total = 0;
         
         for (int i=0; i<n; i++){
             String str = br.readLine();
@@ -20,9 +20,9 @@ public class Main {
         
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
-            sum += (a*b);
+            total += (a*b);
             }
-        if (sum==x){
+        if (total==x){
             System.out.println("Yes");
         }
         else {
