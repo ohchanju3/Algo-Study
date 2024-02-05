@@ -31,3 +31,14 @@ function solution(array, n) {
 // var array = [3, 4, 5, 1, 32, 3];
 
 // console.log(solution(array, 3));
+
+//다른 풀이 방법
+//filter를 활용
+
+function solution(array, n) {
+  var answer = 0;
+  let Array = array.filter((item) => item === n);
+  answer = Array.length;
+
+  return answer;
+}
