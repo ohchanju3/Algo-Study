@@ -1,12 +1,7 @@
-import java.util.Scanner;
- 
 public class Main {
-	public static void main(String[] args) {
- 
-		Scanner in = new Scanner(System.in);
- 
-		int ch = in.next().charAt(0);
+    public static void main(String[] args) throws Exception {
         
-		System.out.print(ch);
-	}
+        int n = System.in.read();
+        System.out.print(n);
+    }
 }
