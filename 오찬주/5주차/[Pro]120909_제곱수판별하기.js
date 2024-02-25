@@ -20,3 +20,10 @@ function solution(n) {
   }
   return 2;
 }
+
+//다른 문제 풀이
+//Number.isInteger() 메서드: 주어진 값이 정수인지 판별
+
+function solution(n) {
+  return Number.isInteger(Math.sqrt(n)) ? 1 : 2;
+}
