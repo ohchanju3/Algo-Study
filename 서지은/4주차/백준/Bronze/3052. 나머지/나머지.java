@@ -12,7 +12,7 @@ public class Main {
         for (int i=0; i<10; i++){
             h.add(Integer.parseInt(br.readLine())%42);
         }
-        
+        //size를 출력하면 됨
         System.out.print(h.size());
         
     }
