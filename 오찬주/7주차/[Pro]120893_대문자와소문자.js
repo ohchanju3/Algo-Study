@@ -27,13 +27,14 @@ toLowerCase
 function solution(my_string) {
   let arr = [];
   for (let i = 0; i < my_string.length; i++) {
-    //대문자라면 소문자로 바꿔서 my_string에 push하기
+    //대문자라면 소문자로 바꿔서 my_string[i]에 push하기
     if (my_string[i] === my_string[i].toUpperCase()) {
       arr.push(my_string[i].toLowerCase());
-      //소문자라면 대문자로 바꿔서 my_string에 push하기
+      //소문자라면 대문자로 바꿔서 my_string[i]에 push하기
     } else {
       arr.push(my_string[i].toUpperCase());
     }
   }
+  //바꾼 값 합치기
   return arr.join("");
 }
