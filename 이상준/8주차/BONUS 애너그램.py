@@ -13,3 +13,4 @@ def generate_anagrams(s):
 s = "abc"  # 예시 입력
 anagrams = generate_anagrams(s)
 print(anagrams)
+
