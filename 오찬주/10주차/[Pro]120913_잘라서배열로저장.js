@@ -26,3 +26,15 @@ function solution(my_str, n) {
 
   return answer;
 }
+
+//다른 사람 풀이
+
+function solution(my_str, n) {
+  let answer = [];
+
+  for (let i = 0; i < my_str.length; i += n) {
+    answer.push(my_str.substr(i, n));
+  }
+
+  return answer;
+}
