@@ -21,6 +21,8 @@ share ≤ balls
 function solution(balls, share) {
   return factorial(balls) / (factorial(balls - share) * factorial(share));
 }
+
+//매우 큰 정수 위해 BigInt 사용
 function factorial(num) {
   let returnFactorial = BigInt(1);
   for (let i = num; i >= 2; i--) {
