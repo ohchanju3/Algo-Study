@@ -9,7 +9,7 @@
 받을 수 있는 최대 서비스 치킨의 수를 return하도록 solution 함수를 완성해주세요.
 
 <제한사항>
-chicken은 정수입니다.
+chicken은 정수입니다. ㅎㅎ
 0 ≤ chicken ≤ 1,000,000
 
 */
