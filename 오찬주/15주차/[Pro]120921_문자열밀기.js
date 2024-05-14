@@ -12,3 +12,21 @@ A, B는 알파벳 소문자로 이루어져 있습니다.
 
 
 */
+
+function solution(A, B) {
+  let arr = [...A];
+  for (let i = 0; i < arr.length; i++) {
+    if (A === B) return i;
+    else {
+      arr.unshift(arr.pop());
+      if (arr.join("") === B) return i + 1;
+    }
+  }
+  return -1;
+}
+
+//다른 풀이
+
+let solution = (a, b) => (b + b).indexOf(a);
+
+//wow....
