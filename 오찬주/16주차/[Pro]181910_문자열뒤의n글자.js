@@ -18,6 +18,8 @@ my_string	n	result
 
 */
 
+//문제 풀이
+
 function solution(my_string, n) {
   const answerSlice = my_string.slice(my_string.length - n);
   return answerSlice;
