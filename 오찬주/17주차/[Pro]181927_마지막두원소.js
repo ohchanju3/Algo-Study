@@ -28,4 +28,5 @@ function solution(num_list) {
 }
 
 //주의할 점:
-// 처음에 var answer = [num_list]로 해서 배열 안의 배열을 또 만들어버렸다. 전개식을 활용해 얕은 복사를 한 후 push를 해야 한다. 주의 필요
+// 처음에 var answer = [num_list]로 해서 배열 안의 배열을 또 만들어버렸다.
+// 전개식을 활용해 얕은 복사를 한 후 push를 해야 한다. 주의 필요
